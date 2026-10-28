@@ -1,0 +1,62 @@
+  <svg width="480" height="480" viewBox="0 0 480 480" xmlns="http://www.w3.org/2000/svg" style="display:block;">
+    <style>
+      @keyframes spin-r1 { from { transform: rotate(0deg); } to { transform: rotate(-360deg); } }
+.orbit-r1 { animation: spin-r1 32s linear infinite; }
+  @keyframes spin-r4 { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+.orbit-r4 { animation: spin-r4 51s linear infinite; }
+  @keyframes spin-r5 { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+.orbit-r5 { animation: spin-r5 26s linear infinite; }
+  @keyframes spin-r2 { from { transform: rotate(0deg); } to { transform: rotate(-360deg); } }
+.orbit-r2 { animation: spin-r2 34s linear infinite; }
+  @keyframes spin-r3 { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+.orbit-r3 { animation: spin-r3 40s linear infinite; }
+  @keyframes spin-r12 { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+.orbit-r12 { animation: spin-r12 40s linear infinite; }
+  @keyframes spin-r14 { from { transform: rotate(0deg); } to { transform: rotate(-360deg); } }
+.orbit-r14 { animation: spin-r14 30s linear infinite; }
+  @keyframes spin-r13 { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+.orbit-r13 { animation: spin-r13 60s linear infinite; }
+    </style>
+    <g style="mix-blend-mode:screen;transform-origin:240px 240px;">
+  <circle cx="240" cy="240" r="131" fill="none" stroke="#8fd8ff" stroke-width="3" stroke-opacity="0.01" stroke-linecap="round"/>
+</g>
+  <g style="mix-blend-mode:screen;transform-origin:240px 240px;">
+  <circle cx="240" cy="240" r="131" fill="none" stroke="#8fd8ff" stroke-width="6" stroke-opacity="0.01" stroke-linecap="round"/>
+</g>
+  <g style="mix-blend-mode:screen;transform-origin:240px 240px;">
+  <circle cx="240" cy="240" r="131" fill="none" stroke="#8fd8ff" stroke-width="4" stroke-opacity="0.01" stroke-linecap="round"/>
+</g>
+  <g style="mix-blend-mode:screen;transform-origin:240px 240px;">
+  <circle cx="240" cy="240" r="200" fill="none" stroke="#8fd8ff" stroke-width="4" stroke-opacity="0.02" stroke-linecap="round"/>
+</g>
+  <g style="mix-blend-mode:screen;transform-origin:240px 240px;">
+  <circle cx="240" cy="240" r="200" fill="none" stroke="#8fd8ff" stroke-width="6" stroke-opacity="0.04" stroke-linecap="round"/>
+</g>
+  <g class="orbit-r13" style="mix-blend-mode:screen;transform-origin:240px 240px;">
+  <circle cx="240" cy="240" r="131" fill="none" stroke="#8fd8ff" stroke-width="3" stroke-opacity="0.02" stroke-linecap="round" stroke-dasharray="96.03 178.34"/>
+</g>
+  <g style="mix-blend-mode:screen;transform-origin:240px 240px;">
+  <circle cx="240" cy="240" r="131" fill="none" stroke="#8fd8ff" stroke-width="3" stroke-opacity="0.01" stroke-linecap="round" stroke-dasharray="144.04 267.51"/>
+</g>
+  <g class="orbit-r14" style="mix-blend-mode:screen;transform-origin:240px 240px;">
+  <circle cx="240" cy="240" r="200" fill="none" stroke="#8fd8ff" stroke-width="2" stroke-opacity="0.02" stroke-linecap="round" stroke-dasharray="52.78 198.55"/>
+</g>
+  <g class="orbit-r12" style="mix-blend-mode:screen;transform-origin:240px 240px;">
+  <circle cx="240" cy="240" r="200" fill="none" stroke="#8fd8ff" stroke-width="2" stroke-opacity="0.01" stroke-linecap="round" stroke-dasharray="188.50 230.38"/>
+</g>
+  <g class="orbit-r3" style="mix-blend-mode:screen;transform-origin:240px 240px;">
+  <circle cx="240" cy="240" r="200" fill="none" stroke="#8fd8ff" stroke-width="2" stroke-opacity="0.07" stroke-linecap="round" stroke-dasharray="80.78 98.74"/>
+</g>
+  <g class="orbit-r2" style="mix-blend-mode:screen;transform-origin:240px 240px;">
+  <circle cx="240" cy="240" r="200" fill="none" stroke="#8fd8ff" stroke-width="2" stroke-opacity="0.07" stroke-linecap="round" stroke-dasharray="122.52 191.64"/>
+</g>
+  <g class="orbit-r5" style="mix-blend-mode:screen;transform-origin:240px 240px;">
+  <circle cx="240" cy="240" r="200" fill="none" stroke="#5ec8f2" stroke-width="2" stroke-opacity="0" stroke-linecap="round" stroke-dasharray="136.14 73.30"/>
+</g>
+  <g class="orbit-r4" style="mix-blend-mode:screen;transform-origin:240px 240px;">
+  <circle cx="240" cy="240" r="200" fill="none" stroke="#5ec8f2" stroke-width="2" stroke-opacity="0.07" stroke-linecap="round" stroke-dasharray="82.38 57.25"/>
+</g>
+  <g class="orbit-r1" style="mix-blend-mode:screen;transform-origin:240px 240px;">
+  <circle cx="240" cy="240" r="200" fill="none" stroke="#5ec8f2" stroke-width="2" stroke-opacity="0.12" stroke-linecap="round" stroke-dasharray="213.63 414.69"/>
+</g>
+  </svg>
