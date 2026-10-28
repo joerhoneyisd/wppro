@@ -3092,7 +3092,14 @@ body.page-id-109 .rd-home-cloud-toggle[aria-pressed="true"] .rd-cloud-icon--play
 .rd-alt-section-cloud { animation-duration: 70s !important; }
 .rd-alt-section-clouds--cta .rd-alt-section-cloud { animation-duration: 80s !important; }
 /* Alternate seamless mirrored cloud loop v1 */
-.rd-alt-cloud-track {width: 100% !important;height: 100% !important;background: url(images/hero-clouds.webp);background-position: bottom;background-size: cover;background-repeat: no-repeat;}
+.rd-alt-cloud-track {
+  width: 100% !important;
+  height: 100% !important;
+  background: url(images/hero-clouds.webp);
+  background-position: bottom;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
 @media (max-width: 1023px) {
         .rd-alt-cloud-track {
             background-size: auto !important;
